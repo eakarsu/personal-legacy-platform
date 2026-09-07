@@ -1,0 +1,253 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "research-roadmap-recommender-for-next",
+      "record-source-citation-generator"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "research-roadmap-recommender-for-next",
+        "title": "research roadmap recommender for next",
+        "originalPath": "/features/research-roadmap-recommender-for-next"
+      },
+      {
+        "id": "record-source-citation-generator",
+        "title": "record source citation generator",
+        "originalPath": "/features/record-source-citation-generator"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "analysis",
+      "ethnicity",
+      "haplogroups",
+      "dna-matches",
+      "name-origin"
+    ],
+    "ai": true,
+    "representativeId": "analysis",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "analysis",
+        "title": "Analysis",
+        "originalPath": "/features/analysis"
+      },
+      {
+        "id": "ethnicity",
+        "title": "DNA Ethnicity Analysis",
+        "originalPath": "/features/ethnicity"
+      },
+      {
+        "id": "haplogroups",
+        "title": "Haplogroup Analysis",
+        "originalPath": "/features/haplogroups"
+      },
+      {
+        "id": "dna-matches",
+        "title": "DNA Match Analysis",
+        "originalPath": "/features/dna-matches"
+      },
+      {
+        "id": "name-origin",
+        "title": "Name Origin Analysis",
+        "originalPath": "/features/name-origin"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "timeline",
+      "relationships",
+      "structured-tools",
+      "ethnicity-estimation",
+      "timeline-generator",
+      "relationship-graph",
+      "tiered-privacy-with-ai-redaction-when",
+      "paywall-expert-genealogist-review-market",
+      "expert-review-workflow-professional-g",
+      "captions",
+      "prompts",
+      "poetry",
+      "quotes",
+      "summary",
+      "titles",
+      "enhance",
+      "comparison",
+      "heritage-gaps"
+    ],
+    "ai": true,
+    "representativeId": "timeline",
+    "description": "One assistant for 18 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "originalPath": "/features/timeline"
+      },
+      {
+        "id": "relationships",
+        "title": "Family Relationships",
+        "originalPath": "/features/relationships"
+      },
+      {
+        "id": "structured-tools",
+        "title": "Structured tools",
+        "originalPath": "/features/structured-tools"
+      },
+      {
+        "id": "ethnicity-estimation",
+        "title": "Ethnicity Estimation",
+        "originalPath": "/features/ethnicity-estimation"
+      },
+      {
+        "id": "timeline-generator",
+        "title": "Timeline Generator",
+        "originalPath": "/features/timeline-generator"
+      },
+      {
+        "id": "relationship-graph",
+        "title": "Relationship Graph",
+        "originalPath": "/features/relationship-graph"
+      },
+      {
+        "id": "tiered-privacy-with-ai-redaction-when",
+        "title": "tiered privacy with ai redaction when",
+        "originalPath": "/features/tiered-privacy-with-ai-redaction-when"
+      },
+      {
+        "id": "paywall-expert-genealogist-review-market",
+        "title": "paywall expert genealogist review market",
+        "originalPath": "/features/paywall-expert-genealogist-review-market"
+      },
+      {
+        "id": "expert-review-workflow-professional-g",
+        "title": "expert review workflow professional g",
+        "originalPath": "/features/expert-review-workflow-professional-g"
+      },
+      {
+        "id": "captions",
+        "title": "AI Caption Generator",
+        "originalPath": "/features/captions"
+      },
+      {
+        "id": "prompts",
+        "title": "AI Memory Prompts",
+        "originalPath": "/features/prompts"
+      },
+      {
+        "id": "poetry",
+        "title": "AI Poetry Generator",
+        "originalPath": "/features/poetry"
+      },
+      {
+        "id": "quotes",
+        "title": "AI Quote Generator",
+        "originalPath": "/features/quotes"
+      },
+      {
+        "id": "summary",
+        "title": "AI Summary Generator",
+        "originalPath": "/features/summary"
+      },
+      {
+        "id": "titles",
+        "title": "AI Title Generator",
+        "originalPath": "/features/titles"
+      },
+      {
+        "id": "enhance",
+        "title": "AI Memory Enhancer",
+        "originalPath": "/features/enhance"
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "originalPath": "/features/comparison"
+      },
+      {
+        "id": "heritage-gaps",
+        "title": "Heritage gaps",
+        "originalPath": "/features/heritage-gaps"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history",
+      "stories"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "History",
+        "originalPath": "/features/history"
+      },
+      {
+        "id": "stories",
+        "title": "AI Story Generator",
+        "originalPath": "/features/stories"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "sentiment"
+    ],
+    "ai": true,
+    "representativeId": "sentiment",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "sentiment",
+        "title": "AI Sentiment Analysis",
+        "originalPath": "/features/sentiment"
+      }
+    ]
+  }
+]

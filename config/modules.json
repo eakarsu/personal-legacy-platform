@@ -1,0 +1,26 @@
+[
+  {
+    "id": "AIDreamJournalAnalyzer",
+    "name": "Dream journal analyzer",
+    "sourceProject": "AIDreamJournalAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AIGenealogyDNAInsightAnalyzer",
+    "name": "Genealogy dnainsight analyzer",
+    "sourceProject": "AIGenealogyDNAInsightAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AIGenealogyResearcher",
+    "name": "Genealogy researcher",
+    "sourceProject": "AIGenealogyResearcher",
+    "services": []
+  },
+  {
+    "id": "AIMemoryBookCreator",
+    "name": "Memory book creator",
+    "sourceProject": "AIMemoryBookCreator",
+    "services": []
+  }
+]

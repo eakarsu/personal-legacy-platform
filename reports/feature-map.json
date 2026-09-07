@@ -1,0 +1,937 @@
+{
+  "mapped": [
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "dreams",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "dreams",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "symbols",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "symbols",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "moods",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "moods",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "sleep-quality",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "sleep-quality",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "lucid-dreams",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "lucid-dreams",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "recurring-dreams",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "recurring-dreams",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "categories",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "categories",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "tags",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "tags",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "goals",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "goals",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "insights",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "insights",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "ai-analysis",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "statistics",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "statistics",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "timeline",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "timeline",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "dream-sharing",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "dream-sharing",
+      "kind": "route"
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "sourceKey": "nightmare-trigger-plan",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "canonical": "nightmare-trigger-plan",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "ethnicity",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "ethnicity",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "ancestors",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "ancestors",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "health-risks",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "health-risks",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "migration",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "migration",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "relationships",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "relationships",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "haplogroups",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "haplogroups",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "traits",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "traits",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "timelines",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "timelines",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "culture",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "culture",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "surnames",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "surnames",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "dna-matches",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "dna-matches",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "documents",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "recipes",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "recipes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "ancient",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+      "canonical": "ancient",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "ai-structured-tools",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "structured-tools",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "ai-history",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "history",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "family-tree-community",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "family-tree-community",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "segment-triangulation-board",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "segment-triangulation-board",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "cf-agentic-genealogy-research-autonomously-",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "agentic-genealogy-research-autonomously",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "cf-multi-modal-dna-document-fusion-combinin",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "multi-modal-dna-document-fusion-combinin",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "cf-health-ancestry-insights-linking-genetic",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "health-ancestry-insights-linking-genetic",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "cf-sensitive-dna-surprise-handling-for-non",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "sensitive-dna-surprise-handling-for-non",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "cf-celebrity-ancestor-matching-gamifying-en",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "celebrity-ancestor-matching-gamifying-en",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "cf-cousin-research-collaboration-with-share",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "cousin-research-collaboration-with-share",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-dna-match-interpretation-endpoint",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "dna-match-interpretation-endpoint",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-migration-story-narrative-synthesis",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "migration-story-narrative-synthesis",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-health-risk-explanation-in-layman",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "health-risk-explanation-in-layman",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-cousin-discovery-branch-inference",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "cousin-discovery-branch-inference",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-ethnicity-deep-dive",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "ethnicity-deep-dive",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-dna-anomaly-detection-non-paternity",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "dna-anomaly-detection-non-paternity",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-expert-consultation-booking-genealogi",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "expert-consultation-booking-genealogi",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-webhook-integrations-with-ancestryfam",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "webhook-integrations-with-ancestryfam",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-real-time-tree-collaboration",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "real-time-tree-collaboration",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-limited-document-ocr-upload-exists-but",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "limited-document-ocr-upload-exists-but",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "sourceKey": "gap-no-payment-subscription-module",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "canonical": "payment-subscription-module",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "persons",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "persons",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "family-trees",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "family-trees",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "historical-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "historical-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "dna-matches",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "dna-matches",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "census-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "census-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "immigration-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "immigration-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "birth-death-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "birth-death-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "marriage-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "marriage-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "military-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "military-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "newspaper-archives",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "newspaper-archives",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "land-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "land-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "church-records",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "church-records",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "ship-manifests",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "ship-manifests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "documents",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "research-notes",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "research-notes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "source-citations",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+      "canonical": "source-citations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "ethnicity-estimation",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+      "canonical": "ethnicity-estimation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "name-origin",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+      "canonical": "name-origin",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "timeline-generator",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+      "canonical": "timeline-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "relationship-graph",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+      "canonical": "relationship-graph",
+      "kind": "definition"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "documents-and-plan",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "documents-and-plan",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "cf-agentic-researcher-autonomy-conducting-g",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "agentic-researcher-autonomy-conducting-g",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "cf-multi-evidence-fusion-weighing-conflicti",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "multi-evidence-fusion-weighing-conflicti",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "cf-dna-document-fusion-linking-matches-to",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "dna-document-fusion-linking-matches-to",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "cf-tiered-privacy-with-ai-redaction-when",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "tiered-privacy-with-ai-redaction-when",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "cf-paywall-expert-genealogist-review-market",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "paywall-expert-genealogist-review-market",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "cf-international-archives-expansion-uk-cana",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "international-archives-expansion-uk-cana",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-conflict-resolution-endpoint-for-disa",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "conflict-resolution-endpoint-for-disa",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-research-roadmap-recommender-for-next",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "research-roadmap-recommender-for-next",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-record-source-citation-generator",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "record-source-citation-generator",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-family-tree-visualization-ui-module",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "family-tree-visualization-ui-module",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-real-time-collaboration-on-shared",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "real-time-collaboration-on-shared",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-expert-review-workflow-professional-g",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "expert-review-workflow-professional-g",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-audit-log-0-references-found",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "audit-log-0-references-found",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-no-notification-engine-0-references",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "notification-engine-0-references",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "gap-limited-support-for-non-us-archives",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "limited-support-for-non-us-archives",
+      "kind": "route"
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "sourceKey": "evidence-confidence-ledger",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "canonical": "evidence-confidence-ledger",
+      "kind": "route"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/memory-books",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "memory-books",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/memories",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "memories",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/categories",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "categories",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/tags",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "tags",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/milestones",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "milestones",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/templates",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "templates",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/stories",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "stories",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/captions",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "captions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/prompts",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "prompts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/sentiment",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "sentiment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/poetry",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "poetry",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/quotes",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "quotes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/summary",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "summary",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/titles",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "titles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "/ai/enhance",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+      "canonical": "enhance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "ai/timeline",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "canonical": "timeline",
+      "kind": "route"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "ai/relationships",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "canonical": "relationships",
+      "kind": "route"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "ai/comparison",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "canonical": "comparison",
+      "kind": "route"
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "sourceKey": "ai/heritage-gaps",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "canonical": "heritage-gaps",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "key": "batch03",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDreamJournalAnalyzer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "/feature/:featureId",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyDNAInsightAnalyzer",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "ai-advanced",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "ai-advanced",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIGenealogyResearcher",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIGenealogyResearcher",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "/public/books/:token",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "/memory-books/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "/memories/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIMemoryBookCreator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMemoryBookCreator",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": []
+}

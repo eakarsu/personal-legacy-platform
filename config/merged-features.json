@@ -1,0 +1,4220 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "documents",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Document Analysis"
+      },
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "documents",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Documents"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/templates",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Templates"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "reports",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Heritage Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dreams",
+    "title": "Dreams",
+    "group": "Dream journal analyzer",
+    "description": "Organize dreams and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "dreams",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Dreams"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/dreams",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "symbols",
+    "title": "Symbols",
+    "group": "Dream journal analyzer",
+    "description": "Organize symbols and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "symbols",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Symbols"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/symbols",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "moods",
+    "title": "Moods",
+    "group": "Dream journal analyzer",
+    "description": "Organize moods and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "moods",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Moods"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/moods",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sleep-quality",
+    "title": "Sleep quality",
+    "group": "Dream journal analyzer",
+    "description": "Organize sleep quality and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "sleep-quality",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Sleep quality"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/sleep-quality",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lucid-dreams",
+    "title": "Lucid dreams",
+    "group": "Dream journal analyzer",
+    "description": "Organize lucid dreams and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "lucid-dreams",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Lucid dreams"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/lucid-dreams",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recurring-dreams",
+    "title": "Recurring dreams",
+    "group": "Dream journal analyzer",
+    "description": "Organize recurring dreams and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "recurring-dreams",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Recurring dreams"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/recurring-dreams",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "categories",
+    "title": "Categories",
+    "group": "Dream journal analyzer",
+    "description": "Organize categories and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "categories",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Categories"
+      },
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/categories",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Categories"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/categories",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tags",
+    "title": "Tags",
+    "group": "Dream journal analyzer",
+    "description": "Organize tags and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "tags",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Tags"
+      },
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/tags",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Tags"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/tags",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "goals",
+    "title": "Goals",
+    "group": "Dream journal analyzer",
+    "description": "Organize goals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "goals",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Goals"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/goals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insights",
+    "title": "Insights",
+    "group": "Dream journal analyzer",
+    "description": "Organize insights and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "insights",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Insights"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/insights",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analysis",
+    "title": "Analysis",
+    "group": "Dream journal analyzer",
+    "description": "Organize analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "ai-analysis",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Analysis"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "statistics",
+    "title": "Statistics",
+    "group": "Dream journal analyzer",
+    "description": "Organize statistics and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "statistics",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Statistics"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/statistics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "timeline",
+    "title": "Timeline",
+    "group": "Dream journal analyzer",
+    "description": "Organize timeline and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "timeline",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Timeline"
+      },
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "ai/timeline",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator",
+        "kind": "route",
+        "label": "Timeline"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/timeline",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dream-sharing",
+    "title": "Dream sharing",
+    "group": "Dream journal analyzer",
+    "description": "Organize dream sharing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "dream-sharing",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Dream sharing"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/dream-sharing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nightmare-trigger-plan",
+    "title": "Nightmare trigger plan",
+    "group": "Dream journal analyzer",
+    "description": "Organize nightmare trigger plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDreamJournalAnalyzer",
+        "path": "nightmare-trigger-plan",
+        "source": "/Volumes/external/projects/AIDreamJournalAnalyzer",
+        "kind": "route",
+        "label": "Nightmare trigger plan"
+      }
+    ],
+    "owner": "AIDreamJournalAnalyzer",
+    "alternatives": [],
+    "path": "/features/nightmare-trigger-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ethnicity",
+    "title": "DNA Ethnicity Analysis",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI-powered analysis of your ethnic composition from DNA data",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "ethnicity",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "DNA Ethnicity Analysis"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/ethnicity",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ancestors",
+    "title": "Ancestor Discovery",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI helps discover and research your ancestors with historical context",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "ancestors",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Ancestor Discovery"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/ancestors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "health-risks",
+    "title": "Health Predisposition",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI analyzes genetic health risk factors and provides insights",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "health-risks",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Health Predisposition"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/health-risks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "migration",
+    "title": "Migration Patterns",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI traces and analyzes ancestral migration routes through history",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "migration",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Migration Patterns"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/migration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "relationships",
+    "title": "Family Relationships",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI determines and explains family relationships from DNA data",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "relationships",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Family Relationships"
+      },
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "ai/relationships",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator",
+        "kind": "route",
+        "label": "Relationships"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/relationships",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "haplogroups",
+    "title": "Haplogroup Analysis",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI explores your ancient lineage through haplogroup deep dive",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "haplogroups",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Haplogroup Analysis"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/haplogroups",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "traits",
+    "title": "Genetic Traits",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI predicts and explains physical and behavioral traits from DNA",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "traits",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Genetic Traits"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/traits",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "timelines",
+    "title": "Ancestor Timeline",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI creates rich historical timelines of ancestor life events",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "timelines",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Ancestor Timeline"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/timelines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "culture",
+    "title": "Cultural Heritage",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI explores cultural traditions and customs of your ancestors",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "culture",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Cultural Heritage"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/culture",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "surnames",
+    "title": "Surname Origins",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI researches the etymology and history of family surnames",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "surnames",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Surname Origins"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/surnames",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dna-matches",
+    "title": "DNA Match Analysis",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI analyzes and interprets DNA match significance",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "dna-matches",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "DNA Match Analysis"
+      },
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "dna-matches",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "DNA Matches"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/dna-matches",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recipes",
+    "title": "Heritage Recipes",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI discovers traditional recipes connected to your ancestral regions",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "recipes",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Heritage Recipes"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/recipes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ancient",
+    "title": "Ancient Ancestry",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "AI explores deep ancient origins and connections to ancient populations",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "ancient",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer/frontend/src/features.js",
+        "kind": "definition",
+        "label": "Ancient Ancestry"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/ancient",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "structured-tools",
+    "title": "Structured tools",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize structured tools and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "ai-structured-tools",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "Structured tools"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/structured-tools",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "history",
+    "title": "History",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "ai-history",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "History"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-tree-community",
+    "title": "Family tree community",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize family tree community and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "family-tree-community",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "Family tree community"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/family-tree-community",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "segment-triangulation-board",
+    "title": "Segment triangulation board",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize segment triangulation board and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "segment-triangulation-board",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "Segment triangulation board"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/segment-triangulation-board",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-genealogy-research-autonomously",
+    "title": "agentic genealogy research autonomously",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize agentic genealogy research autonomously and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "cf-agentic-genealogy-research-autonomously-",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "agentic genealogy research autonomously"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/agentic-genealogy-research-autonomously",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-modal-dna-document-fusion-combinin",
+    "title": "multi modal dna document fusion combinin",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize multi modal dna document fusion combinin and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "cf-multi-modal-dna-document-fusion-combinin",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "multi modal dna document fusion combinin"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/multi-modal-dna-document-fusion-combinin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "health-ancestry-insights-linking-genetic",
+    "title": "health ancestry insights linking genetic",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize health ancestry insights linking genetic and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "cf-health-ancestry-insights-linking-genetic",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "health ancestry insights linking genetic"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/health-ancestry-insights-linking-genetic",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sensitive-dna-surprise-handling-for-non",
+    "title": "sensitive dna surprise handling for non",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize sensitive dna surprise handling for non and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "cf-sensitive-dna-surprise-handling-for-non",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "sensitive dna surprise handling for non"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/sensitive-dna-surprise-handling-for-non",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "celebrity-ancestor-matching-gamifying-en",
+    "title": "celebrity ancestor matching gamifying en",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize celebrity ancestor matching gamifying en and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "cf-celebrity-ancestor-matching-gamifying-en",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "celebrity ancestor matching gamifying en"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/celebrity-ancestor-matching-gamifying-en",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cousin-research-collaboration-with-share",
+    "title": "cousin research collaboration with share",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize cousin research collaboration with share and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "cf-cousin-research-collaboration-with-share",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "cousin research collaboration with share"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/cousin-research-collaboration-with-share",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dna-match-interpretation-endpoint",
+    "title": "dna match interpretation endpoint",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize dna match interpretation endpoint and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-dna-match-interpretation-endpoint",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "dna match interpretation endpoint"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/dna-match-interpretation-endpoint",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "migration-story-narrative-synthesis",
+    "title": "migration story narrative synthesis",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize migration story narrative synthesis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-migration-story-narrative-synthesis",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "migration story narrative synthesis"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/migration-story-narrative-synthesis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "health-risk-explanation-in-layman",
+    "title": "health risk explanation in layman",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize health risk explanation in layman and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-health-risk-explanation-in-layman",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "health risk explanation in layman"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/health-risk-explanation-in-layman",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cousin-discovery-branch-inference",
+    "title": "cousin discovery branch inference",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize cousin discovery branch inference and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-cousin-discovery-branch-inference",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "cousin discovery branch inference"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/cousin-discovery-branch-inference",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ethnicity-deep-dive",
+    "title": "ethnicity deep dive",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize ethnicity deep dive and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-ethnicity-deep-dive",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "ethnicity deep dive"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/ethnicity-deep-dive",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dna-anomaly-detection-non-paternity",
+    "title": "dna anomaly detection non paternity",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize dna anomaly detection non paternity and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-dna-anomaly-detection-non-paternity",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "dna anomaly detection non paternity"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/dna-anomaly-detection-non-paternity",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expert-consultation-booking-genealogi",
+    "title": "expert consultation booking genealogi",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize expert consultation booking genealogi and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-expert-consultation-booking-genealogi",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "expert consultation booking genealogi"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/expert-consultation-booking-genealogi",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-integrations-with-ancestryfam",
+    "title": "webhook integrations with ancestryfam",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Prepare webhook integrations with ancestryfam requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-webhook-integrations-with-ancestryfam",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "webhook integrations with ancestryfam"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/webhook-integrations-with-ancestryfam",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-tree-collaboration",
+    "title": "real time tree collaboration",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize real time tree collaboration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-real-time-tree-collaboration",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "real time tree collaboration"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/real-time-tree-collaboration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-document-ocr-upload-exists-but",
+    "title": "limited document ocr upload exists but",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize limited document ocr upload exists but and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-limited-document-ocr-upload-exists-but",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "limited document ocr upload exists but"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/limited-document-ocr-upload-exists-but",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payment-subscription-module",
+    "title": "payment subscription module",
+    "group": "Genealogy dnainsight analyzer",
+    "description": "Organize payment subscription module and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyDNAInsightAnalyzer",
+        "path": "gap-no-payment-subscription-module",
+        "source": "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+        "kind": "route",
+        "label": "payment subscription module"
+      }
+    ],
+    "owner": "AIGenealogyDNAInsightAnalyzer",
+    "alternatives": [],
+    "path": "/features/payment-subscription-module",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "persons",
+    "title": "Person Records",
+    "group": "Genealogy researcher",
+    "description": "Organize person records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "persons",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Person Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/persons",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-trees",
+    "title": "Family Trees",
+    "group": "Genealogy researcher",
+    "description": "Organize family trees and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "family-trees",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Family Trees"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/family-trees",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "historical-records",
+    "title": "Historical Records",
+    "group": "Genealogy researcher",
+    "description": "Organize historical records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "historical-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Historical Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/historical-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "census-records",
+    "title": "Census Records",
+    "group": "Genealogy researcher",
+    "description": "Organize census records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "census-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Census Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/census-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "immigration-records",
+    "title": "Immigration Records",
+    "group": "Genealogy researcher",
+    "description": "Organize immigration records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "immigration-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Immigration Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/immigration-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "birth-death-records",
+    "title": "Birth & Death Records",
+    "group": "Genealogy researcher",
+    "description": "Organize birth & death records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "birth-death-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Birth & Death Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/birth-death-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "marriage-records",
+    "title": "Marriage Records",
+    "group": "Genealogy researcher",
+    "description": "Organize marriage records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "marriage-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Marriage Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/marriage-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "military-records",
+    "title": "Military Records",
+    "group": "Genealogy researcher",
+    "description": "Organize military records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "military-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Military Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/military-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "newspaper-archives",
+    "title": "Newspaper Archives",
+    "group": "Genealogy researcher",
+    "description": "Organize newspaper archives and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "newspaper-archives",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Newspaper Archives"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/newspaper-archives",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "land-records",
+    "title": "Land & Property Records",
+    "group": "Genealogy researcher",
+    "description": "Organize land & property records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "land-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Land & Property Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/land-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "church-records",
+    "title": "Church Records",
+    "group": "Genealogy researcher",
+    "description": "Organize church records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "church-records",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Church Records"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/church-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ship-manifests",
+    "title": "Ship Manifests",
+    "group": "Genealogy researcher",
+    "description": "Organize ship manifests and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "ship-manifests",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Ship Manifests"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/ship-manifests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "research-notes",
+    "title": "Research Notes",
+    "group": "Genealogy researcher",
+    "description": "Organize research notes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "research-notes",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Research Notes"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/research-notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "source-citations",
+    "title": "Source Citations",
+    "group": "Genealogy researcher",
+    "description": "Organize source citations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "source-citations",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Source Citations"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/source-citations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ethnicity-estimation",
+    "title": "Ethnicity Estimation",
+    "group": "Genealogy researcher",
+    "description": "AI-powered ethnic origin estimation",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "ethnicity-estimation",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Ethnicity Estimation"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/ethnicity-estimation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "name-origin",
+    "title": "Name Origin Analysis",
+    "group": "Genealogy researcher",
+    "description": "Discover the origin and meaning of names",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "name-origin",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Name Origin Analysis"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/name-origin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "timeline-generator",
+    "title": "Timeline Generator",
+    "group": "Genealogy researcher",
+    "description": "Generate life timelines from records",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "timeline-generator",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Timeline Generator"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/timeline-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "relationship-graph",
+    "title": "Relationship Graph",
+    "group": "Genealogy researcher",
+    "description": "Visualize and manage person relationships",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "relationship-graph",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Relationship Graph"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/relationship-graph",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents-and-plan",
+    "title": "Documents and plan",
+    "group": "Genealogy researcher",
+    "description": "Organize documents and plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "documents-and-plan",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "Documents and plan"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/documents-and-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-researcher-autonomy-conducting-g",
+    "title": "agentic researcher autonomy conducting g",
+    "group": "Genealogy researcher",
+    "description": "Organize agentic researcher autonomy conducting g and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "cf-agentic-researcher-autonomy-conducting-g",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "agentic researcher autonomy conducting g"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/agentic-researcher-autonomy-conducting-g",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-evidence-fusion-weighing-conflicti",
+    "title": "multi evidence fusion weighing conflicti",
+    "group": "Genealogy researcher",
+    "description": "Organize multi evidence fusion weighing conflicti and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "cf-multi-evidence-fusion-weighing-conflicti",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "multi evidence fusion weighing conflicti"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/multi-evidence-fusion-weighing-conflicti",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dna-document-fusion-linking-matches-to",
+    "title": "dna document fusion linking matches to",
+    "group": "Genealogy researcher",
+    "description": "Organize dna document fusion linking matches to and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "cf-dna-document-fusion-linking-matches-to",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "dna document fusion linking matches to"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/dna-document-fusion-linking-matches-to",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tiered-privacy-with-ai-redaction-when",
+    "title": "tiered privacy with ai redaction when",
+    "group": "Genealogy researcher",
+    "description": "Organize tiered privacy with ai redaction when and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "cf-tiered-privacy-with-ai-redaction-when",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "tiered privacy with ai redaction when"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/tiered-privacy-with-ai-redaction-when",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "paywall-expert-genealogist-review-market",
+    "title": "paywall expert genealogist review market",
+    "group": "Genealogy researcher",
+    "description": "Organize paywall expert genealogist review market and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "cf-paywall-expert-genealogist-review-market",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "paywall expert genealogist review market"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/paywall-expert-genealogist-review-market",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "international-archives-expansion-uk-cana",
+    "title": "international archives expansion uk cana",
+    "group": "Genealogy researcher",
+    "description": "Organize international archives expansion uk cana and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "cf-international-archives-expansion-uk-cana",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "international archives expansion uk cana"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/international-archives-expansion-uk-cana",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "conflict-resolution-endpoint-for-disa",
+    "title": "conflict resolution endpoint for disa",
+    "group": "Genealogy researcher",
+    "description": "Organize conflict resolution endpoint for disa and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-conflict-resolution-endpoint-for-disa",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "conflict resolution endpoint for disa"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/conflict-resolution-endpoint-for-disa",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "research-roadmap-recommender-for-next",
+    "title": "research roadmap recommender for next",
+    "group": "Genealogy researcher",
+    "description": "Organize research roadmap recommender for next and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-research-roadmap-recommender-for-next",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "research roadmap recommender for next"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/research-roadmap-recommender-for-next",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "record-source-citation-generator",
+    "title": "record source citation generator",
+    "group": "Genealogy researcher",
+    "description": "Organize record source citation generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-record-source-citation-generator",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "record source citation generator"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/record-source-citation-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-tree-visualization-ui-module",
+    "title": "family tree visualization ui module",
+    "group": "Genealogy researcher",
+    "description": "Organize family tree visualization ui module and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-family-tree-visualization-ui-module",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "family tree visualization ui module"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/family-tree-visualization-ui-module",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-collaboration-on-shared",
+    "title": "real time collaboration on shared",
+    "group": "Genealogy researcher",
+    "description": "Organize real time collaboration on shared and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-real-time-collaboration-on-shared",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "real time collaboration on shared"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/real-time-collaboration-on-shared",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expert-review-workflow-professional-g",
+    "title": "expert review workflow professional g",
+    "group": "Genealogy researcher",
+    "description": "Organize expert review workflow professional g and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-expert-review-workflow-professional-g",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "expert review workflow professional g"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/expert-review-workflow-professional-g",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit-log-0-references-found",
+    "title": "audit log 0 references found",
+    "group": "Genealogy researcher",
+    "description": "Organize audit log 0 references found and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-audit-log-0-references-found",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "audit log 0 references found"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/audit-log-0-references-found",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notification-engine-0-references",
+    "title": "notification engine 0 references",
+    "group": "Genealogy researcher",
+    "description": "Organize notification engine 0 references and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-no-notification-engine-0-references",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "notification engine 0 references"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/notification-engine-0-references",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-support-for-non-us-archives",
+    "title": "limited support for non us archives",
+    "group": "Genealogy researcher",
+    "description": "Organize limited support for non us archives and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "gap-limited-support-for-non-us-archives",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "limited support for non us archives"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/limited-support-for-non-us-archives",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evidence-confidence-ledger",
+    "title": "Evidence confidence ledger",
+    "group": "Genealogy researcher",
+    "description": "Organize evidence confidence ledger and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIGenealogyResearcher",
+        "path": "evidence-confidence-ledger",
+        "source": "/Volumes/external/projects/AIGenealogyResearcher",
+        "kind": "route",
+        "label": "Evidence confidence ledger"
+      }
+    ],
+    "owner": "AIGenealogyResearcher",
+    "alternatives": [],
+    "path": "/features/evidence-confidence-ledger",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "memory-books",
+    "title": "Memory Books",
+    "group": "Memory book creator",
+    "description": "Organize memory books and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/memory-books",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Memory Books"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/memory-books",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "memories",
+    "title": "Memories",
+    "group": "Memory book creator",
+    "description": "Organize memories and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/memories",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Memories"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/memories",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "milestones",
+    "title": "Milestones",
+    "group": "Memory book creator",
+    "description": "Organize milestones and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/milestones",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Milestones"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/milestones",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stories",
+    "title": "AI Story Generator",
+    "group": "Memory book creator",
+    "description": "Organize ai story generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/stories",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Story Generator"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/stories",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "captions",
+    "title": "AI Caption Generator",
+    "group": "Memory book creator",
+    "description": "Organize ai caption generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/captions",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Caption Generator"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/captions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prompts",
+    "title": "AI Memory Prompts",
+    "group": "Memory book creator",
+    "description": "Organize ai memory prompts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/prompts",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Memory Prompts"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/prompts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sentiment",
+    "title": "AI Sentiment Analysis",
+    "group": "Memory book creator",
+    "description": "Organize ai sentiment analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/sentiment",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Sentiment Analysis"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/sentiment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "poetry",
+    "title": "AI Poetry Generator",
+    "group": "Memory book creator",
+    "description": "Organize ai poetry generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/poetry",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Poetry Generator"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/poetry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quotes",
+    "title": "AI Quote Generator",
+    "group": "Memory book creator",
+    "description": "Organize ai quote generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/quotes",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Quote Generator"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/quotes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "summary",
+    "title": "AI Summary Generator",
+    "group": "Memory book creator",
+    "description": "Organize ai summary generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/summary",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Summary Generator"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "titles",
+    "title": "AI Title Generator",
+    "group": "Memory book creator",
+    "description": "Organize ai title generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/titles",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Title Generator"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/titles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "enhance",
+    "title": "AI Memory Enhancer",
+    "group": "Memory book creator",
+    "description": "Organize ai memory enhancer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "/ai/enhance",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Memory Enhancer"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/enhance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "comparison",
+    "title": "Comparison",
+    "group": "Memory book creator",
+    "description": "Organize comparison and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "ai/comparison",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator",
+        "kind": "route",
+        "label": "Comparison"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/comparison",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "heritage-gaps",
+    "title": "Heritage gaps",
+    "group": "Memory book creator",
+    "description": "Organize heritage gaps and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMemoryBookCreator",
+        "path": "ai/heritage-gaps",
+        "source": "/Volumes/external/projects/AIMemoryBookCreator",
+        "kind": "route",
+        "label": "Heritage gaps"
+      }
+    ],
+    "owner": "AIMemoryBookCreator",
+    "alternatives": [],
+    "path": "/features/heritage-gaps",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

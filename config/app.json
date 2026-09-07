@@ -1,0 +1,23 @@
+{
+  "id": "personal-legacy-platform",
+  "title": "Personal history & family legacy",
+  "buyer": "Individuals and families preserving history",
+  "sourceCount": 4,
+  "sources": [
+    "AIDreamJournalAnalyzer",
+    "AIGenealogyDNAInsightAnalyzer",
+    "AIGenealogyResearcher",
+    "AIMemoryBookCreator"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46062,
+  "productName": "Personal history Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AIDreamJournalAnalyzer",
+    "/Volumes/external/projects/AIGenealogyDNAInsightAnalyzer",
+    "/Volumes/external/projects/AIGenealogyResearcher",
+    "/Volumes/external/projects/AIMemoryBookCreator"
+  ]
+}

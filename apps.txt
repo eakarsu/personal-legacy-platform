@@ -1,0 +1,4 @@
+AIDreamJournalAnalyzer
+AIGenealogyDNAInsightAnalyzer
+AIGenealogyResearcher
+AIMemoryBookCreator
