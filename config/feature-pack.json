@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-persons",
+      "feature": "persons",
+      "title": "Person records insight",
+      "focus": "Summarize Person Records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent family relationships or ancestry."
+    },
+    {
+      "id": "insight-memories",
+      "feature": "memories",
+      "title": "Memories insight",
+      "focus": "Summarize Memories records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent events or relationships."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
